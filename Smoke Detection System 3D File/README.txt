@@ -1,0 +1,4 @@
+Case smoke detektor and temperature sensor - D1 mini, MQ2, BME280 3.3V - ESP8266 mqtt by m3Dg on Thingiverse: https://www.thingiverse.com/thing:4718579
+
+Summary:
+Here is the guide to building the sensor:https://hassiohelp.eu/2021/01/16/multisensore-fumo-temperatura-umidita-pressione/Case for multisensor: Wemos D1Mini + MQ2 + BME280 3.3VSmoke, temperature, humidity and pressure sensorRail coverRecommended support for USB and entrance BME280Angle support 86%Ecco la guida per costruire il sensore:https://hassiohelp.eu/2021/01/16/multisensore-fumo-temperatura-umidita-pressione/Case per multisensore: Wemos D1Mini + MQ2 + BME280 3.3VSensore di fumo, temperatura, umidità e pressioneChiusura a binarioSupporto consigliato solo per foro USB e ingresso BME280Supporto angolare 86%
