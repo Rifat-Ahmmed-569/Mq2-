@@ -12,17 +12,20 @@ The goal is not only to build a working gas detector, but also to understand how
 
 ## Project Overview
 
-| Component | Description |
-|---|---|
-| Microcontroller | Arduino Nano |
-| Gas sensor | MQ-2 |
-| Analog input | A2 |
-| Digital threshold input | A2 (software threshold) |
-| Buzzer | D8 |
-| Load resistor | 10 kΩ |
-| Operating voltage | 5 V |
-| Power source | Laptop USB or suitable USB power bank |
-| Programming environment | Arduino IDE |
+| Component | Description | Purchase Link | Listed Price |
+|---|---|---|---|
+| Microcontroller | Arduino Nano (ATmega328P, 5V) | [Buy from RoboticsBD](https://store.roboticsbd.com/) | Approx. BDT 393* |
+| Gas Sensor | MQ-2 Smoke and Gas Sensor Module | [Search RoboticsBD](https://store.roboticsbd.com/) | Check current price |
+| Analog Input | MQ-2 AO → A2 | — | — |
+| Digital Output | MQ-2 DO → D2 (if using a module with DO pin) | — | — |
+| Buzzer | 5V Active Buzzer Module → D8 | [Buy Active Buzzer](https://store.roboticsbd.com/sensors/1738-active-speaker-buzzer-module-for-arduino-5v-robotics-bangladesh.html) | Approx. BDT 59* |
+| Load Resistor | 10 kΩ (required for bare sensor circuit; module may already include it) | [Search RoboticsBD](https://store.roboticsbd.com/) | Check current price |
+| Operating Voltage | 5V | — | — |
+| Power Source | Laptop USB or suitable USB power bank | — | — |
+| Programming Environment | Arduino IDE | [Download Arduino IDE](https://www.arduino.cc/en/software) | Free |
+
+\*Prices are indicative and may change. Check the product page for the current price, stock availability, delivery charge, and final checkout total.
+
 
 ### What this project does
 
