@@ -78,6 +78,38 @@ For a bare six-pin MQ-2, the two heater pins must be connected to the heater sup
 
 The uploaded circuit diagram illustrates the basic analog sensing arrangement.
 
+
+### 3D-Printed Enclosure Design
+
+To make the project more organized and practical, I designed a custom 3D-printed casing for the MQ-2 gas detection system.
+
+The enclosure provides a compact structure for mounting the Arduino Nano, MQ-2 sensor, buzzer, and circuit connections. It also helps keep the electronic components arranged properly and makes the prototype easier to handle during demonstrations and testing.
+
+The casing was designed with the sensor's placement in mind, allowing the MQ-2 sensing element to remain exposed to the surrounding air for gas detection.
+
+The 3D model files are included in this repository, so students and makers can inspect the design, modify it, or print their own enclosure.
+
+**Design and fabrication**
+
+- Custom 3D-printed enclosure
+- Organized mounting for electronic components
+- Dedicated placement for the MQ-2 sensor
+- Compact and practical prototype structure
+- Editable 3D model files included in the repository
+
+The following images show the enclosure design and the assembled prototype.
+
+## 3D Enclosure Design
+
+Explore the 3D model of the enclosure on Thingiverse.
+
+[![View 3D Enclosure](images/mq2-enclosure-preview.png)](https://www.thingiverse.com/thing:4718579)
+
+[Open the interactive 3D model on Thingiverse](https://www.thingiverse.com/thing:4718579)
+
+
+
+
 ---
 
 ## 2. How the MQ-2 Sensor Works
