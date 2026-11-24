@@ -115,7 +115,7 @@ The design files and images are available in the repository for students and mak
       <sub>3D Enclosure Model</sub>
     </td>
     <td align="center" width="33%">
-      <img src="https://raw.githubusercontent.com/Rifat-Ahmmed-569/Mq2-/main/Smoke%20Detection%20System%203D%20File/images/CoperchioD1_Mq2_Bme280.png" width="100%" alt="MQ-2 enclosure cover design"/>
+      <img src="https://raw.githubusercontent.com/Rifat-Ahmmed-569/Mq2-/main/Smoke%20Detection%20System%203D%20File/images/CaseD1_Mq2_Bme280.png" width="100%" alt="MQ-2 enclosure cover design"/>
       <br/>
       <sub>Enclosure Cover</sub>
     </td>
