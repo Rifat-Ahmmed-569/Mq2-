@@ -14,17 +14,18 @@ The goal is not only to build a working gas detector, but also to understand how
 
 | Component | Description | Purchase Link | Listed Price |
 |---|---|---|---|
-| Microcontroller | Arduino Nano (ATmega328P, 5V) | [Buy from RoboticsBD]([https://store.roboticsbd.com/](https://store.roboticsbd.com/development-boards/926-arduino-nano-r3-robotics-bangladesh.html)) | Approx. BDT 393* |
-| Gas Sensor | MQ-2 Smoke and Gas Sensor Module | [Search RoboticsBD]([https://store.roboticsbd.com/](https://store.roboticsbd.com/sensors/671-mq-2-flammable-gas-smoke-sensor-robotics-bangladesh.html)) | Check current price |
+| Microcontroller | Arduino Nano (ATmega328P, 5V) | [Buy Arduino Nano R3](https://store.roboticsbd.com/development-boards/926-arduino-nano-r3-robotics-bangladesh.html) | Approx. BDT 393* |
+| Gas Sensor | MQ-2 Smoke and Gas Sensor Module | [Buy MQ-2 Sensor](https://store.roboticsbd.com/sensors/671-mq-2-flammable-gas-smoke-sensor-robotics-bangladesh.html) | Check current price |
 | Analog Input | MQ-2 AO → A2 | — | — |
 | Digital Output | MQ-2 DO → D2 (if using a module with DO pin) | — | — |
 | Buzzer | 5V Active Buzzer Module → D8 | [Buy Active Buzzer](https://store.roboticsbd.com/sensors/1738-active-speaker-buzzer-module-for-arduino-5v-robotics-bangladesh.html) | Approx. BDT 59* |
-| Load Resistor | 10 kΩ (required for bare sensor circuit; module may already include it) | [Search RoboticsBD]([https://store.roboticsbd.com/](https://store.roboticsbd.com/resistor/243-10k-ohm-carbon-film-resistor-pack-of-10-robotics-bangladesh.html)) | Check current price |
-| Operating Voltage | 5V | — | Power Bank or Laptop or Phones Charger |
-| Power Source | Laptop USB or suitable USB power bank | — | — |
+| Load Resistor | 10 kΩ (required for bare sensor circuit; module may already include it) | [Buy 10 kΩ Resistors](https://store.roboticsbd.com/resistor/243-10k-ohm-carbon-film-resistor-pack-of-10-robotics-bangladesh.html) | Check current price |
+| Operating Voltage | 5V | — | — |
+| Power Source | Laptop USB, suitable USB power bank, or compatible 5V phone charger | — | — |
 | Programming Environment | Arduino IDE | [Download Arduino IDE](https://www.arduino.cc/en/software) | Free |
 
 \*Prices are indicative and may change. Check the product page for the current price, stock availability, delivery charge, and final checkout total.
+
 
 
 ### What this project does
