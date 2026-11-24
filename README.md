@@ -770,11 +770,7 @@ A short delay in Arduino code does not replace the initial datasheet preheat req
 
 ## 7. Scientific Sensor Calibration
 
-Calibration is the process of relating a sensor's electrical response to a known physical condition.
-
-For gas sensors, calibration requires a known gas concentration or a controlled reference environment.
-
-### Why calibration is necessary
+## Gas Sensor Characteristics and Industrial-Grade Alternatives
 
 The resistance of an MQ-2 sensor varies between individual sensors.
 
@@ -790,6 +786,85 @@ It is also affected by:
 - Exposure history
 
 A threshold that works for one sensor may not work for another.
+
+### MQ-2 Gas Detection Parameters
+
+The MQ-2 is a metal-oxide semiconductor (MOS) gas sensor. It provides a broad response to several combustible gases, vapors, and smoke.
+
+| Gas / Substance | Chemical Formula | Typical MQ-2 Detection Range* |
+|---|---|---|
+| LPG | C₃H₈ / C₄H₁₀ mixture | 200–5,000 ppm |
+| Propane | C₃H₈ | 200–5,000 ppm |
+| Butane | C₄H₁₀ | 300–5,000 ppm |
+| Methane / Natural Gas | CH₄ | 5,000–20,000 ppm |
+| Hydrogen | H₂ | 300–5,000 ppm |
+| Alcohol Vapors | Ethanol / other alcohols | 100–2,000 ppm |
+| Carbon Monoxide | CO | Cross-sensitive response |
+| Smoke | Mixed combustion products | Qualitative detection |
+
+\*Ranges are typical values reported in MQ-2 documentation. They are not guaranteed calibrated measurement ranges for every sensor module. Actual response depends on the sensor, circuit, calibration, and environmental conditions.
+
+### Industrial-Grade Sensor Technologies
+
+For industrial monitoring, the sensor technology should be selected according to the target gas and required measurement range.
+
+| Target Gas | Recommended Industrial Sensor Technology | Typical Measurement Range |
+|---|---|---|
+| LPG / Propane / Butane | Catalytic bead or infrared (IR) | 0–100% LEL |
+| Methane / Natural Gas | Catalytic bead or infrared (IR) | 0–100% LEL |
+| Hydrogen | Catalytic bead or hydrogen-specific sensor | 0–100% LEL |
+| Carbon Monoxide (CO) | Electrochemical | 0–500 ppm or 0–1,000 ppm |
+| Alcohol / VOC Vapors | Photoionization detector (PID) or gas-specific sensor | ppm range, model-dependent |
+| Smoke / Combustion Particles | Photoelectric smoke detector or optical particulate sensor | Smoke / particulate response, not gas ppm |
+
+These are representative industrial measurement ranges. The exact range, resolution, accuracy, and response time depend on the selected detector model.
+
+### Industrial Sensor Parameters
+
+When selecting an industrial gas sensor or transmitter, consider the following specifications:
+
+| Parameter | Recommended Specification to Evaluate |
+|---|---|
+| Measurement Range | Selected according to the target gas and application |
+| Accuracy | Common industrial specification: approximately ±3% to ±5% of full scale, depending on model |
+| Response Time | T90 specified by manufacturer; often 30 seconds or less for many gas detection applications |
+| Analog Output | 4–20 mA current loop |
+| Digital Output | RS-485 / Modbus RTU, where available |
+| Alarm Output | Relay or configurable alarm output |
+| Operating Voltage | Commonly 12–24 V DC; verify the transmitter datasheet |
+| Environmental Protection | IP65 or IP66 enclosure for suitable outdoor or industrial installations |
+| Calibration | Manufacturer-approved calibration gas and procedure |
+| Certification | Appropriate hazardous-area certification when required by the installation |
+
+### Analog Output and Arduino Compatibility
+
+Industrial gas transmitters commonly provide a 4–20 mA analog output instead of the 0–5 V analog output found on many hobby sensor modules.
+
+A 4–20 mA output can be converted into a voltage signal using a suitable precision resistor.
+
+For example, with a 250 Ω resistor:
+
+- 4 mA → 1 V
+- 12 mA → 3 V
+- 20 mA → 5 V
+
+This voltage can be measured using an Arduino analog input, provided the transmitter circuit, resistor rating, grounding, and ADC input limits are designed correctly.
+
+Industrial transmitters often require a separate 24 V DC supply and should not be powered directly from the Arduino Nano.
+
+### Calibration and Measurement Reliability
+
+For reliable gas measurement:
+
+1. Allow the sensor to warm up according to the manufacturer's instructions.
+2. Establish a clean-air baseline.
+3. Calibrate using the specified reference gas and concentration.
+4. Record the sensor's baseline resistance or output.
+5. Apply temperature and humidity compensation if supported.
+6. Verify the alarm threshold using a controlled test procedure.
+7. Perform periodic calibration and maintenance.
+
+**Important:** The MQ-2 is intended for educational and general-purpose gas detection experiments. It is not a certified industrial gas detector or life-safety alarm. For workplace safety, gas leakage protection, or hazardous environments, use a certified detector designed for the specific gas and application.
 
 ### Step 1 — Measure the load resistor
 
