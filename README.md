@@ -14,11 +14,11 @@ The goal is not only to build a working gas detector, but also to understand how
 
 | Component | Description | Purchase Link | Listed Price |
 |---|---|---|---|
-| Microcontroller | Arduino Nano (ATmega328P, 5V) | [Buy Arduino Nano R3](https://store.roboticsbd.com/development-boards/926-arduino-nano-r3-robotics-bangladesh.html) | Approx. BDT 393* |
+| Microcontroller | Arduino Nano (ATmega328P, 5V) | [Buy Arduino Nano R3](https://store.roboticsbd.com/development-boards/926-arduino-nano-r3-robotics-bangladesh.html) | Approx. BDT 600* |
 | Gas Sensor | MQ-2 Smoke and Gas Sensor Module | [Buy MQ-2 Sensor](https://store.roboticsbd.com/sensors/671-mq-2-flammable-gas-smoke-sensor-robotics-bangladesh.html) | Check current price |
 | Analog Input | MQ-2 AO → A2 | — | — |
 | Digital Output | MQ-2 DO → D2 (if using a module with DO pin) | — | — |
-| Buzzer | 5V Active Buzzer Module → D8 | [Buy Active Buzzer](https://store.roboticsbd.com/sensors/1738-active-speaker-buzzer-module-for-arduino-5v-robotics-bangladesh.html) | Approx. BDT 59* |
+| Buzzer | 5V Active Buzzer Module → D8 | [Buy Active Buzzer](https://store.roboticsbd.com/sensors/1738-active-speaker-buzzer-module-for-arduino-5v-robotics-bangladesh.html) | Approx. BDT 80* |
 | Load Resistor | 10 kΩ (required for bare sensor circuit; module may already include it) | [Buy 10 kΩ Resistors](https://store.roboticsbd.com/resistor/243-10k-ohm-carbon-film-resistor-pack-of-10-robotics-bangladesh.html) | Check current price |
 | Operating Voltage | 5V | — | — |
 | Power Source | Laptop USB, suitable USB power bank, or compatible 5V phone charger | — | — |
