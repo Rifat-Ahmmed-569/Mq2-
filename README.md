@@ -227,6 +227,9 @@ The bare MQ-2 sensor does not contain this comparator circuit.
 
 This project is designed for students who have never programmed an Arduino before.
 
+<img width="650" height="366" alt="image" src="https://github.com/user-attachments/assets/4c4b4f6a-5042-428f-a2bf-868681d4443b" />
+
+
 ### Step 1 — Download Arduino IDE
 
 Download Arduino IDE from the official website:
