@@ -284,8 +284,93 @@ On Windows, it may appear as COM3, COM4, COM5, or another COM port.
 
 ### Step 7 — Upload the program
 
+Here is the basic Arduino code for the MQ-2 Smoke Detection System.
 
-Here is the code. Copy and paste it into the Arduino IDE.
+Copy and paste the code into the Arduino IDE.
+
+#### Arduino Code
+
+```cpp
+// MQ-2 Smoke Detection System
+// Arduino Nano
+
+// Pin Configuration
+const int MQ2_ANALOG_PIN = A2;
+const int MQ2_DIGITAL_PIN = 2;
+const int BUZZER_PIN = 8;
+
+// Analog threshold (adjust after testing)
+const int GAS_THRESHOLD = 400;
+
+// Set true if the module's D0 output becomes LOW
+// when gas or smoke is detected.
+const bool DIGITAL_ACTIVE_LOW = true;
+
+void setup() {
+  Serial.begin(9600);
+
+  pinMode(MQ2_DIGITAL_PIN, INPUT);
+  pinMode(BUZZER_PIN, OUTPUT);
+
+  digitalWrite(BUZZER_PIN, LOW);
+
+  Serial.println("MQ-2 Smoke Detection System");
+  Serial.println("Sensor is warming up...");
+}
+
+void loop() {
+  // Read analog and digital sensor outputs
+  int analogValue = analogRead(MQ2_ANALOG_PIN);
+  int digitalValue = digitalRead(MQ2_DIGITAL_PIN);
+
+  // Convert digital output into detection status
+  bool digitalDetected;
+
+  if (DIGITAL_ACTIVE_LOW) {
+    digitalDetected = (digitalValue == LOW);
+  } else {
+    digitalDetected = (digitalValue == HIGH);
+  }
+
+  // Analog threshold detection
+  bool analogDetected = (analogValue >= GAS_THRESHOLD);
+
+  // Trigger alarm if either output detects gas/smoke
+  bool gasDetected = analogDetected || digitalDetected;
+
+  // Display sensor readings
+  Serial.print("Analog Value: ");
+  Serial.print(analogValue);
+
+  Serial.print(" | Digital Value: ");
+  Serial.print(digitalValue);
+
+  if (gasDetected) {
+    digitalWrite(BUZZER_PIN, HIGH);
+    Serial.println(" | WARNING: Gas/Smoke Detected!");
+  } else {
+    digitalWrite(BUZZER_PIN, LOW);
+    Serial.println(" | Air Level: Normal");
+  }
+
+  delay(500);
+}
+```
+
+#### Basic Algorithm
+
+1. Initialize the analog sensor, digital sensor, buzzer, and Serial Monitor.
+2. Read the MQ-2 analog value from A2.
+3. Read the MQ-2 digital output from D2.
+4. Compare the analog value with the configured threshold.
+5. Check the digital output for gas/smoke detection.
+6. If either output indicates detection, activate the buzzer.
+7. Otherwise, keep the buzzer turned off.
+8. Display the sensor readings and status in the Serial Monitor.
+9. Repeat the process continuously.
+
+
+Also a bit advanced algo:
 
 ```cpp
 
