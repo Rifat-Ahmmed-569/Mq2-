@@ -63,7 +63,8 @@ The MQ-2 sensing circuit is based on a resistive divider. The sensor resistance 
 
 ### Wiring diagram
 
-The wiring diagram is included in this repository.
+<img width="2000" height="1414" alt="mq2_diagram" src="https://github.com/user-attachments/assets/1cd408db-afe4-4f6d-90fd-69ed3f1325d9" />
+
 
 The basic sensing circuit uses:
 
