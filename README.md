@@ -99,17 +99,35 @@ The 3D model files are included in this repository, so students and makers can i
 
 The following images show the enclosure design and the assembled prototype.
 
-## 3D Enclosure Design
+### 3D-Printed Enclosure Design
 
-Explore the 3D model of the enclosure on Thingiverse.
+The enclosure was designed to provide a compact and organized structure for the MQ-2 gas detection system. The 3D-printed casing holds the electronic components while keeping the sensing element exposed to the surrounding air.
 
+The design files and images are available in the repository for students and makers who want to inspect, modify, or reproduce the enclosure.
 
+#### Enclosure Design and 3D Model
 
+<table>
+  <tr>
+    <td align="center" width="33%">
+      <img src="https://raw.githubusercontent.com/Rifat-Ahmmed-569/Mq2-/main/Smoke%20Detection%20System%203D%20File/images/Schermata_2021-01-12_alle_11.29.55.png" width="100%" alt="MQ-2 enclosure 3D model"/>
+      <br/>
+      <sub>3D Enclosure Model</sub>
+    </td>
+    <td align="center" width="33%">
+      <img src="https://raw.githubusercontent.com/Rifat-Ahmmed-569/Mq2-/main/Smoke%20Detection%20System%203D%20File/images/CoperchioD1_Mq2_Bme280.png" width="100%" alt="MQ-2 enclosure cover design"/>
+      <br/>
+      <sub>Enclosure Cover</sub>
+    </td>
+    <td align="center" width="33%">
+      <img src="https://raw.githubusercontent.com/Rifat-Ahmmed-569/Mq2-/main/Smoke%20Detection%20System%203D%20File/images/CoperchioD1_Mq2_Bme280.png" width="100%" alt="MQ-2 enclosure cover design"/>
+      <br/>
+      <sub>Enclosure Design Detail</sub>
+    </td>
+  </tr>
+</table>
 
-[Open the interactive 3D model on Thingiverse](https://www.thingiverse.com/thing:4718579)
-
-
-
+**Explore the complete design files:** [Smoke Detection System 3D File](https://github.com/Rifat-Ahmed-569/Mq2-/tree/main/Smoke%20Detection%20System%203D%20File)
 
 ---
 
