@@ -133,6 +133,68 @@ The design files and images are available in the repository for students and mak
 
 **Explore the complete design files:** [Smoke Detection System 3D File](https://github.com/Rifat-Ahmed-569/Mq2-/tree/main/Smoke%20Detection%20System%203D%20File)
 
+
+## 3D Printer Operating Guide
+
+Follow the video tutorial below for a visual guide to operating a 3D printer.
+
+### Video Tutorial
+
+[![3D Printer Operating Guide](https://img.youtube.com/vi/B84CgaPdixc/maxresdefault.jpg)](https://www.youtube.com/watch?v=B84CgaPdixc)
+
+[**Watch the 3D Printer Operating Guide on YouTube**](https://www.youtube.com/watch?v=B84CgaPdixc)
+
+### Basic Operating Procedure
+
+#### Step 1 — Prepare the 3D Model
+
+- Open your 3D model in a slicer software such as Ultimaker Cura or PrusaSlicer.
+- Select the correct printer profile.
+- Configure the printing material, layer height, infill, and support settings.
+- Slice the model and preview the generated layers.
+- Export the sliced file as G-code.
+
+#### Step 2 — Prepare the Printer
+
+- Place the printer on a stable, level surface.
+- Check that the build plate is clean.
+- Ensure the nozzle and build plate are free from leftover filament.
+- Check that the filament is properly loaded.
+- Confirm that the printer's power cable and connections are secure.
+
+#### Step 3 — Start the Print
+
+- Transfer the G-code file to the printer using the supported method, such as an SD card or USB connection.
+- Select the correct file from the printer's interface.
+- Start the printing process.
+- Observe the first few layers to ensure proper bed adhesion.
+
+#### Step 4 — Monitor the Printing Process
+
+- Check that the filament is feeding smoothly.
+- Ensure the printed layers are sticking properly to the build plate.
+- Watch for filament tangles, unusual noises, or printing errors.
+- Do not leave the printer unattended for extended periods, especially during initial testing.
+
+#### Step 5 — Remove the Printed Part
+
+- Wait until the print and build plate have cooled sufficiently.
+- Carefully remove the printed object using an appropriate tool.
+- Avoid touching the hot nozzle or heated bed.
+- Clean the build plate and remove any leftover filament.
+
+### Safety Precautions
+
+- Never touch the nozzle or heated bed while they are hot.
+- Keep hands, loose clothing, and cables away from moving parts.
+- Operate the printer in a well-ventilated area.
+- Use the correct temperature settings for the selected filament.
+- Do not force the printed object off the build plate.
+- Follow the operating instructions provided by the printer manufacturer.
+
+**Note:** The exact operating procedure may vary depending on the 3D printer model. Always follow the manufacturer's instructions for bed leveling, filament loading, temperature settings, and maintenance.<img width="1280" height="720" alt="maxresdefault" src="https://github.com/user-attachments/assets/38e56172-aa55-4b70-9389-48b75195e615" />
+
+
 ---
 
 ## 2. How the MQ-2 Sensor Works
