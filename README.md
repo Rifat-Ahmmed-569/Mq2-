@@ -140,6 +140,9 @@ The design files and images are available in the repository for students and mak
 The MQ-2 is a metal-oxide semiconductor (MOS) gas sensor.
 <img width="800" height="600" alt="image" src="https://github.com/user-attachments/assets/a73dc01c-80f8-4b1c-b0c4-ce2d06cb76b9" />
 
+Watch this video: https://www.instagram.com/reels/DgEQjaYBwyr/
+
+<img width="1376" height="746" alt="image" src="https://github.com/user-attachments/assets/73afe5a1-e50e-407f-b7e3-dc112a9a9909" />
 
 Its sensing material is primarily **tin dioxide (SnO₂)**, a semiconductor whose electrical resistance changes depending on the surrounding gas environment.
 
