@@ -7,6 +7,9 @@ This project introduces the fundamentals of gas sensing, analog signal measureme
 The goal is not only to build a working gas detector, but also to understand how a low-cost sensor behaves, why calibration matters, and what is required to develop a reliable industrial sensing instrument.
 
 > **Important:** This is an educational prototype. It is not a certified gas detector and must not be used as a replacement for industrial, residential, or life-safety gas detection equipment.
+>
+<img width="2720" height="3120" alt="image" src="https://github.com/user-attachments/assets/81d15d14-6068-42fa-b5ee-80dbf5896a92" />
+
 
 ---
 
