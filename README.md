@@ -83,6 +83,8 @@ The uploaded circuit diagram illustrates the basic analog sensing arrangement.
 ## 2. How the MQ-2 Sensor Works
 
 The MQ-2 is a metal-oxide semiconductor (MOS) gas sensor.
+<img width="800" height="600" alt="image" src="https://github.com/user-attachments/assets/a73dc01c-80f8-4b1c-b0c4-ce2d06cb76b9" />
+
 
 Its sensing material is primarily **tin dioxide (SnO₂)**, a semiconductor whose electrical resistance changes depending on the surrounding gas environment.
 
