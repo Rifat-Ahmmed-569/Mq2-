@@ -303,6 +303,10 @@ Official Arduino upload guide:
 
 https://support.arduino.cc/hc/en-us/articles/4733418441116-Upload-a-sketch-in-Arduino-IDE
 
+Youtube Tutorial:
+
+https://youtu.be/6OR7STWnIaE
+
 ---
 
 ## 6. Sensor Warm-Up and Stabilization
