@@ -103,7 +103,8 @@ The following images show the enclosure design and the assembled prototype.
 
 Explore the 3D model of the enclosure on Thingiverse.
 
-[![View 3D Enclosure](images/mq2-enclosure-preview.png)](https://www.thingiverse.com/thing:4718579)
+
+
 
 [Open the interactive 3D model on Thingiverse](https://www.thingiverse.com/thing:4718579)
 
