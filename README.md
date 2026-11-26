@@ -3,10 +3,6 @@
 A beginner-friendly gas and smoke detection project built using an MQ-2 metal-oxide gas sensor, Arduino Nano, and a buzzer.
 
 
-## Project Demonstration
-
-Watch the hardware setup and sensor testing demonstration of the MQ-2 Gas Sensor project.
-
 [![MQ-2 Gas Sensor Testing Demonstration](https://img.youtube.com/vi/XV0bhmBA-qs/maxresdefault.jpg)](https://youtu.be/XV0bhmBA-qs)
 
 ▶ [Watch the full demonstration on YouTube](https://youtu.be/XV0bhmBA-qs)
