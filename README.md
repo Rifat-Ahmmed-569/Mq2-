@@ -214,7 +214,8 @@ Follow the video tutorial below for a visual guide to operating a 3D printer.
 ## 2. How the MQ-2 Sensor Works
 
 The MQ-2 is a metal-oxide semiconductor (MOS) gas sensor.
-<img width="800" height="600" alt="image" src="https://github.com/user-attachments/assets/a73dc01c-80f8-4b1c-b0c4-ce2d06cb76b9" />
+<img width="300" height="280" alt="image" src="https://github.com/user-attachments/assets/5078be1b-5cef-4800-8d71-0b8c7cee4e0d" />
+
 
 Watch this video: https://www.instagram.com/reels/DgEQjaYBwyr/
 
