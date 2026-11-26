@@ -48,12 +48,11 @@ The goal is not only to build a working gas detector, but also to understand how
 
 ## Project Demonstration
 
-Watch the sensor testing video below.
+Watch the hardware setup and sensor testing demonstration of the MQ-2 Gas Sensor project.
 
-[<video src="./sensor_test.mp4" controls width="100%"></video>
-](https://github.com/user-attachments/assets/your-video-id)
----
+[![MQ-2 Gas Sensor Testing Demonstration](https://img.youtube.com/vi/XV0bhmBA-qs/maxresdefault.jpg)](https://youtu.be/XV0bhmBA-qs)
 
+▶ [Watch the full demonstration on YouTube](https://youtu.be/XV0bhmBA-qs)
 ## 1. Hardware and Circuit Design
 
 ### Required components
