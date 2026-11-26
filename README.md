@@ -50,8 +50,8 @@ The goal is not only to build a working gas detector, but also to understand how
 
 Watch the sensor testing video below.
 
-<video src="./sensor_test.mp4" controls width="100%"></video>
-
+[<video src="./sensor_test.mp4" controls width="100%"></video>
+](https://github.com/user-attachments/assets/your-video-id)
 ---
 
 ## 1. Hardware and Circuit Design
