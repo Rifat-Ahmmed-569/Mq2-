@@ -45,6 +45,13 @@ The goal is not only to build a working gas detector, but also to understand how
 - Allows users to observe sensor behavior through the Serial Monitor.
 - Introduces the process of sensor warm-up, baseline measurement, and calibration.
 
+
+## Project Demonstration
+
+Watch the sensor testing video below.
+
+<video src="./sensor_test.mp4" controls width="100%"></video>
+
 ---
 
 ## 1. Hardware and Circuit Design
