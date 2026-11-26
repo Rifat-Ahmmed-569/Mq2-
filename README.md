@@ -2,6 +2,11 @@
 
 A beginner-friendly gas and smoke detection project built using an MQ-2 metal-oxide gas sensor, Arduino Nano, and a buzzer.
 
+<img width="1600" height="900" alt="image" src="https://github.com/user-attachments/assets/089f4bf4-7cf5-420a-872a-7b134884eaab" />
+
+
+
+
 This project introduces the fundamentals of gas sensing, analog signal measurement, sensor calibration, resistance measurement, and embedded alarm systems.
 
 The goal is not only to build a working gas detector, but also to understand how a low-cost sensor behaves, why calibration matters, and what is required to develop a reliable industrial sensing instrument.
