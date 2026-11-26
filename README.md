@@ -13,7 +13,7 @@ The goal is not only to build a working gas detector, but also to understand how
 
 > **Important:** This is an educational prototype. It is not a certified gas detector and must not be used as a replacement for industrial, residential, or life-safety gas detection equipment.
 >
-<img width="2720" height="3120" alt="image" src="https://github.com/user-attachments/assets/81d15d14-6068-42fa-b5ee-80dbf5896a92" />
+
 
 
 ---
@@ -723,11 +723,16 @@ void loop() {
 
 ```
 
+
 Click the checkmark button to verify the sketch.
 
 If compilation succeeds, click the right-arrow Upload button.
 
 Wait until the IDE reports that the upload is complete.
+
+
+#Flowchart:
+<img width="2720" height="3120" alt="image" src="https://github.com/user-attachments/assets/81d15d14-6068-42fa-b5ee-80dbf5896a92" />
 
 ### Step 8 — Open Serial Monitor
 
